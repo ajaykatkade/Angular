@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Methods</title>
+</head>
+<body>
+    <table border="1" bgcolor="skyblue" cellspacing="">
+        <form> 
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                <input type="text" size="20" name="Name">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                Emplyoee Code
+            </td>
+            <td>
+                <input type="text" size="4" value="" name="EmpName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Department
+            </td>
+            <td>
+                <input  type="radio" name="D-grp" value="Admin"> Admin<br>
+                <input type="radio" name="D-grp" value="HR"> HR<br>
+                <input type="radio" name="D-grp" value="Technical"> Technical<br>
+                <input type="radio" name="D-grp" value="Accounts"> Accounts<br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Joining
+            </td>
+            <td>
+                <input type="date" type="dd-mm-yyyy" name="DOJ">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                <textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A">Enter ur address </textarea>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                Training programs attended 
+            </td>
+            <td>
+                <input  type="checkbox" name="T-grp" value="html"> HTML/DHTM<br>
+                <input type="checkbox" name="T-grp" value="java"> JAVA<br>
+                <input type="checkbox" name="T-grp" value="c.s"> Client/Server<br>
+                <input type="checkbox" name="T-grp" value="net"> .net<br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Training programs need to attend 
+            </td>
+            <td>
+                <select name="pref">
+                    <option value="JS">JavaScript </option>
+                    <option value="CORBA">CORBA </option>
+                    <option value="VB6">Visual Basic 6 </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            Send the information at
+        </td>
+        <td>
+            <a href="mailto: empinfo@capgemini.com"> empinfo@capgemini.com</a><br>
+        </td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>

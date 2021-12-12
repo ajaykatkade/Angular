@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Candidate Information</title>
+</head>
+<body>
+    <h2 align="center">Candidate Information</h2>
+    <table border="1" bgcolor="skyblue" cellspacing="" align="center" cellpadding="">
+        <form> 
+        <tr>
+            <td>
+                <label for="name">Name:<span class="required">*</span></label>
+            </td>
+            <td>
+                <input type="text" size="20" name="Name" required>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:<span class="required">*</span></label>
+            </td>
+            <td>
+                <input type="password" value="" name="password" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNumber">Phone Numbeer:<span class="required">*</span></label>
+            </td>
+            <td>
+                <input type="number" size="10" name="phoneNumber" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender:<span class="required">*</span></label>
+            </td>
+            <td>
+                <input  type="radio" name="G-grp" value="male"> Male
+                <input type="radio" name="G-grp" value="female"> Female
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth
+            </td>
+            <td>
+                <input type="date" type="dd-mm-yyyy" name="DOB">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:<span class="required">*</span></label>
+            </td>
+            <td>
+                <input type="email" value="" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select Highest Qualification:<span class="required">*</span>
+            </td>
+            <td>
+                <select name="HighestQual" placeholder="Select Highest Qualification" >
+                    <option value="btech">B.Tech </option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="mba">MBA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Course Intersted in:<span class="required">*</span>
+            </td>
+            <td>
+                <input  type="checkbox" name="T-grp" value="java">Java
+                <input type="checkbox" name="T-grp" value="html"> Html
+                <input type="checkbox" name="T-grp" value="css"> CSS3
+                <input type="checkbox" name="T-grp" value="angula"> Angular
+                <input type="checkbox" name="T-grp" value="JQuery"> JQuery
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Comments if any:<span class="required">*</span>
+            </td>
+            <td>
+                <textarea name="comments" Rows="5" cols="40" tabindex="0" accesskey="A">Enter your comments here.... </textarea>
+            </td>
+            
+        </tr>
+        
+        <tr>
+            <td>
+            Uploading Degree / External certificates
+            </td>
+            <td>
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            
+        </td>
+        <td>
+            <input type="submit" value="Submit Information">
+            <input type="reset" value="Clear">
+        </td>
+        </tr>
+        </form>
+    </table>
+    <p align="center" style="color: red">All fields marked (*) are mandatory</p>
+</body>
+</html>
